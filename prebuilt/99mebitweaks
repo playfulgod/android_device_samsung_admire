@@ -1,0 +1,7 @@
+#!/system/bin/sh
+
+log -p i -t mebitweaks "* * * MEBITWEAKS: started"
+                                   
+/system/bin/lowmemvalue            
+log -p i -t mebitweaks "* * * MEBITWEAKS: low memory values applied"
+log -p i -t mebitweaks "* * * MEBITWEAKS: ended"

@@ -1,0 +1,34 @@
+DEVICE_PROVISIONED=1
+debug.sf.hw=1
+debug.composition.type=mdp
+dalvik.vm.execution-mode=int:fast
+ro.sf.lcd_density=160
+qemu.sf.lcd_density=160
+ro.opengles.version = 131072
+windowsmgr.max_events_per_sec=260
+debug.performance.tuning=1
+video.accelerate.hw=1
+media.stagefright.enable-player=true
+media.stagefright.enable-meta=true
+media.stagefright.enable-scan=true
+media.stagefright.enable-http=true
+dalvik.vm.verify-bytecode=false
+dalvik.vm.dexopt-flags=m=v,o=y
+dalvik.vm.dexopt-data-only=1
+ro.telephony.call_ring.delay=0
+mot.proximity.delay=25
+persist.sys.purgeable_assets=0
+persist.android.strictmode=0
+persist.sys.scrollingcache=2
+ro.kernel.android.checkjni=1
+pm.sleep_mode=1
+ro.ril.disable.power.collapse=1
+ro.min_pointer_dur=1
+
+# video - photo rec tweaks
+ro.media.dec.jpeg.memcap=8000000
+ro.media.enc.hprof.vid.bps=8000000
+
+
+
+
