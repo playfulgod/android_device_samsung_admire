@@ -2,4 +2,10 @@ CM 7 Admire configuration
 
 Build:
 
+cd /path/to/cm7
+
+git clone git://github.com/requisite0/admire-device-profile.git device/samsung/admire
+
+git clone git://github.com/requisite0/admire-vendor-profile.git vendor/samsung/admire
+
 brunch generic_admire-eng
