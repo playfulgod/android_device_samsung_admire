@@ -8,4 +8,6 @@ git clone git://github.com/requisite0/admire-device-profile.git device/samsung/a
 
 git clone git://github.com/requisite0/admire-vendor-profile.git vendor/samsung/admire
 
+. build/envsetup.sh
+
 brunch generic_admire-eng
